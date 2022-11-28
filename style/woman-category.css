@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafa;
+    color: black;
+}
+
+
+                                             /* header message */
+
+
+ #header{
+    position:fixed;
+    background:fixed;
+    z-index: 1;
+    width: 100%;
+ }
+#top-msg{
+    position: fixed;
+    display: inline;
+    width: 100%;
+    top: 0;
+
+    text-align: center;
+    border: 1px solid transparent;
+    align-items: center;
+    background: rgb(237 229 223);
+    z-index: 1;
+} 
+#top-msg h3{
+    
+    
+    color: rgb(30, 29, 29,87%);
+    font-size: 14px;
+    font-weight: 600;
+    /* font-family: 'Rajdhani', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+}
+#top-msg h3 a{
+    text-decoration: none;
+    color: rgb(30, 29, 29 ,87%) ;
+    width: 100%;
+}
+
+
+                                            /* nav bar */
+
+
+#navbar{
+    display: flex;
+    align-items: center;
+    margin-top: 44px;
+    background-color: #f9fafa;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+#navbar #logo{
+
+    /* margin-left: 14px; */
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(30, 29, 29,87%) ;
+    font-size: 22px;
+    padding-left: 20px;
+}
+#navbar nav{
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+#navbar #nav-menu ul{
+    
+    list-style-type: none;
+    display: inline-block;
+}
+
+#navbar #nav-menu ul li{
+    display: inline-block;
+    margin-right: 28px;
+    position: relative;
+}
+#navbar #nav-menu ul li a{
+    text-decoration: none;
+    color: rgb(30, 29, 29,87%) ;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    transition: 0.3s ease;
+}
+
+#navbar #nav-last{
+    text-align: right;
+    /* margin-right: 35px; */
+     margin-top: 14px;
+     padding-right: 30px;
+}
+ 
+#Nav-cart {
+
+    float: right;
+    right: 20px;
+    font-size: 22px;
+     
+ }
+
+#navbar #nav-menu ul li a:hover ,
+#navbar #nav-menu ul li .women-navbar{  
+    color: brown;
+}
+
+#navbar #nav-menu ul li .women-navbar::after , 
+#navbar #nav-menu ul li a:hover::after 
+{
+
+    content: "";
+    height: 2px;
+    width: 50%;
+    background:brown;
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+}
+
+
+#navbar #nav-menu .nav-login:hover{
+    color: brown;
+    content: "";
+    height: 2px;
+    width: 50%;
+    background:brown;
+     position: absolute;
+    bottom: -4px;
+    left: 0px;
+}
+                                          /* Mid Msg */
+#mid-msg{
+    top: 7em;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+#mid-msg article{
+    
+    text-align: center;
+    position: relative;
+    
+    width: 100%;
+    
+}
+#mid-msg article h1{
+    font-size: 3.7em;
+    font-family: monospace ;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(30, 29, 29,87%);
+    align-items: center;
+    width: 100%;
+}
